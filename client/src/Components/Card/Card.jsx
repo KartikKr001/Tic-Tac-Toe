@@ -1,5 +1,5 @@
 import Icon from '../Icon/Icon'
-import {} from '../Card/Card.css'
+import {} from './Card.css'
 function Card({player,onPlay,index}) {
     let icon = <Icon/>
     if(player == 'X') {
